@@ -16,10 +16,18 @@ Agent Skills 是一个开放的、轻量级的格式，用于扩展 AI Agent 的
 
 ## 安装方式
 
-### 方式一：复制到 .agents/skills 目录
+### 方式一：npx 安装（推荐）
+
+使用 Claude Code CLI 安装 Skills：
 
 ```bash
-git clone <your-repo-url>
+npx skills add https://github.com/bjycloud/baijiayun-skills
+```
+
+### 方式二：复制到 .agents/skills 目录
+
+```bash
+git clone https://github.com/bjycloud/baijiayun-skills
 cp -r skills/* .agents/skills/
 ```
 
