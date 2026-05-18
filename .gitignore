@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Claude Code 本地配置
+.claude/
+
+# Claude Code 项目上下文（对内使用，外部 agent 可直接读取 SKILL.md）
+CLAUDE.md
+
+# 临时文件
+*.log
+
+# 配置文件（本地覆盖）
+config.json
